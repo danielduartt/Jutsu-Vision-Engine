@@ -1,7 +1,3 @@
-Aqui está um `README.md` profissional, estruturado para impressionar recrutadores e entusiastas, incluindo a explicação técnica sobre a renderização visual em tempo real.
-
----
-
 # 🌀 Jutsu Vision Pipeline: Classificador de Gestos Multiclasse
 
 Um sistema de **visão computacional de baixa latência** que identifica gestos de mãos em tempo real utilizando Geometria Espacial, Aprendizado de Máquina (XGBoost) e Arquitetura Reativa para disparo de eventos multimídia.
@@ -96,17 +92,6 @@ pip install opencv-python mediapipe numpy xgboost pygame pandas
 python src/3_main.py
 
 ```
-
-
-
----
-
-## 💡 Destaques para sua Apresentação
-
-* **Engenharia de Dados:** Explique como o *Zero-Padding* resolveu a incompatibilidade de tensores entre poses de uma e duas mãos.
-* **Arquitetura de Baixa Latência:** Mencione que o sistema de renderização utiliza `cv2.imshow` integrado com a lógica de *blending* de pixels, garantindo fluidez visual mesmo rodando inferência de IA.
-* **Performance:** Destaque o uso do `XGBoost`, que permite rodar predições complexas em tempo real com uso mínimo de processamento de GPU.
-
 ---
 
 *Desenvolvido por Daniel Duarte | Computer Engineering Student @ UFMA*
